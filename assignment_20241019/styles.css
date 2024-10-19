@@ -1,0 +1,64 @@
+/* DONT DELETE THIS */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/* WRITE YOUR CODE BELOW */
+
+body {
+  background-color: #f3f3f5;
+  display: flex;
+  justify-content: space-around;
+}
+
+div {
+  /* background-color: skyblue; */
+  height: 100px;
+}
+
+/* span {
+  display: block;
+} */
+
+.app {
+  background-color: white;
+  margin: 60px;
+  padding: 15px;
+  height: 690px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  align-items: center;
+  position: relative;
+  border-radius: 30px;
+  box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.1);
+}
+
+.app__header {
+  height: 40px;
+  width: 94%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: blue; */
+}
+
+.app__header i {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+}
+
+/* .app-album {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin: 10px 0 30px 0;
+  box-shadow: 0px 5px 10px #f18010;
+} */
+
+.app-album img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px 0 30px 0;
+  box-shadow: 0px 5px 10px #f18010;
+}
