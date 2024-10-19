@@ -120,7 +120,6 @@
           src="https://www.muse.mu/sites/g/files/g2000014236/files/styles/album-cover-new/public/2022-04/Muse%20-%20The%20Resistance%20Packshot_0.png"
         />
       </div>
-      <!-- 큰이미지 -->
 
       <div class="app-title">
         <span class="app-title__title">November</span>
@@ -131,17 +130,24 @@
           <span>1:56</span>
           <span>2:21</span>
         </div>
-        <div class="music-player-time__bar">
-          <!-- <div>전체 바</div>
-            <div>플레잉 바</div>
-            <div>플레잉 닷</div> -->
+        <div class="music-player-time-bar">
+          <div class="music-player-time-bar__all">
+            <div class="music-player-time-bar__now"></div>
+            <div class="music-player-time-bar__dot"></div>
+          </div>
         </div>
-        <div>
-          <!-- 순환 아이콘
-            역재생 아이콘
-            <div> 플래이 아이콘</div>
-            앞재생 아이콘
-            셔플 아이콘 -->
+        <div class="music-player-btns">
+          <span class="music-player-btns__repeat"
+            ><i class="fa-solid fa-repeat fa-lg"></i
+          ></span>
+          <span><i class="fa-solid fa-backward-step fa-lg"></i></span>
+          <div class="music-player__play-btn">
+            <span class="music-player__play-btn-icon"
+              ><i class="fa-solid fa-play fa-xl"></i
+            ></span>
+          </div>
+          <span><i class="fa-solid fa-forward-step fa-lg"></i></span>
+          <span><i class="fa-solid fa-shuffle fa-lg"></i></span>
         </div>
       </div>
     </div>
