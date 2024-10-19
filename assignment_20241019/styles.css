@@ -3,18 +3,16 @@
 /* WRITE YOUR CODE BELOW */
 
 body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
   background-color: #f3f3f5;
   display: flex;
   justify-content: space-around;
 }
 
-div {
-  /* background-color: skyblue; */
+/* div {
+  background-color: skyblue;
   height: 100px;
-}
-
-/* span {
-  display: block;
 } */
 
 .app {
@@ -47,18 +45,126 @@ div {
   font-size: 18px;
 }
 
-/* .app-album {
+.app-album {
   height: 80px;
   width: 80px;
   border-radius: 50%;
   margin: 10px 0 30px 0;
-  box-shadow: 0px 5px 10px #f18010;
-} */
+}
 
 .app-album img {
-  width: 80px;
-  height: 80px;
+  width: 100%;
+  height: auto;
   border-radius: 50%;
-  margin: 10px 0 30px 0;
   box-shadow: 0px 5px 10px #f18010;
+}
+
+.app-title {
+  height: 50px;
+  width: 100%;
+  margin: 5px 0 35px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.app-title__title {
+  font-size: 25px;
+}
+
+.app-title__subtitle {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.app-option-btn {
+  height: 45px;
+  width: 270px;
+  margin-bottom: 30px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-option-btn__shuffle {
+  height: 40px;
+  width: 110px;
+  margin: 0 15px;
+  border-radius: 20px;
+  background-color: #222222;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+}
+
+.app-option-btn__fov-count {
+  height: 40px;
+  width: 150px;
+  height: 40px;
+  width: 105px;
+  margin: 0 15px;
+  border-radius: 20px;
+  background-color: white;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.1);
+}
+
+.app-option-btn__fov-count span {
+  color: #222222;
+  margin-right: 7px;
+}
+
+.music-list__block {
+  height: 250px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute; */
+  margin: 10px 0;
+}
+
+.music-list-music {
+  height: 45px;
+  width: 270px;
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: first baseline;
+  align-items: center;
+}
+
+.music-list-music img {
+  height: 100%;
+  width: audo;
+  border-radius: 15%;
+}
+
+.music-list-music span:first-child {
+}
+
+.music-list-music span:last-child {
+}
+
+.music-player__title {
+  height: 230px;
+  width: 230px;
+  border-radius: 18px;
+  margin: 50px 0;
+}
+
+.music-player__title img {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0px 15px 20px #bab8b5;
 }

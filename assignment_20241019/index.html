@@ -5,6 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- 첫번째 화면 -->
@@ -18,7 +24,6 @@
       <div class="app-album">
         <img
           src="https://www.muse.mu/sites/g/files/g2000014236/files/styles/album-cover-new/public/2023-01/Muse_WOTP_DSP.jpeg"
-          class="app-album__image"
         />
       </div>
 
@@ -29,55 +34,65 @@
       <div class="app-option-btn">
         <div class="app-option-btn__shuffle">Shuffle</div>
         <div class="app-option-btn__fov-count">
-          <!-- <i 하트 아이콘 -->
+          <span> <i class="fa-solid fa-heart fa-lg"></i> </span>
           <h6>212 971</h6>
         </div>
-        <div class="music-list__block">
-          <div class="music-list-music">
-            <!-- 이미지 -->
-            <div>
-              <span>Tyler, The Creator</span>
-              <!-- span 마지막 문장 대문자로 -->
-              <span>earfquake</span>
-            </div>
-            <!-- 점세개 -->
+      </div>
+      <div class="music-list__block">
+        <div class="music-list-music">
+          <img
+            src="https://www.muse.mu/sites/g/files/g2000014236/files/styles/album-cover-new/public/2022-04/Muse%20-%20The%20Resistance%20Packshot_0.png"
+          />
+          <div>
+            <span>Tyler, The Creator</span>
+            <!-- span 마지막 문장 대문자로 -->
+            <span>earfquake</span>
           </div>
-          <div class="music-list-music">
-            <!-- 이미지 -->
-            <!-- 플래잉 아이콘 -->
-            <div>
-              <span>Tyler, The Creator</span>
-              <span>november</span>
-            </div>
-            <!-- 점세개 -->
-          </div>
-          <div class="music-list-music">
-            <!-- 이미지 -->
-            <div>
-              <span>Tyler, The Creator</span>
-              <span>911</span>
-            </div>
-            <!-- 점세개 -->
-          </div>
-          <div class="music-list-music">
-            <!-- 이미지 -->
-            <div>
-              <span>Tyler, The Creator</span>
-              <span>wolf</span>
-            </div>
-            <!-- 점세개 -->
-          </div>
+          <span><i class="fa-solid fa-ellipsis-vertical fa-xl"></i></span>
         </div>
-        <div>
+        <div class="music-list-music">
+          <img
+            src="https://www.muse.mu/sites/g/files/g2000014236/files/styles/album-cover-new/public/2022-04/Muse%20-%20The%20Resistance%20Packshot_0.png"
+          />
+          <!-- 플래잉 아이콘 -->
           <div>
             <span>Tyler, The Creator</span>
             <span>november</span>
           </div>
+          <span><i class="fa-solid fa-ellipsis-vertical fa-xl"></i></span>
+        </div>
+        <div class="music-list-music">
+          <!-- 이미지 -->
+          <img
+            src="https://www.muse.mu/sites/g/files/g2000014236/files/styles/album-cover-new/public/2022-04/Muse%20-%20The%20Resistance%20Packshot_0.png"
+          />
           <div>
-            <!-- 역재생 아이콘
+            <span>Tyler, The Creator</span>
+            <span>911</span>
+          </div>
+          <span><i class="fa-solid fa-ellipsis-vertical fa-xl"></i></span>
+        </div>
+        <div class="music-list-music">
+          <!-- 이미지 -->
+          <img
+            src="https://www.muse.mu/sites/g/files/g2000014236/files/styles/album-cover-new/public/2022-04/Muse%20-%20The%20Resistance%20Packshot_0.png"
+          />
+          <div>
+            <span>Tyler, The Creator</span>
+            <span>wolf</span>
+          </div>
+          <span><i class="fa-solid fa-ellipsis-vertical fa-xl"></i></span>
+        </div>
+      </div>
+      <div>
+        <div>
+          <span>Tyler, The Creator</span>
+          <span>november</span>
+        </div>
+        <div>
+          <!-- 역재생 아이콘
                 퍼즈 아이콘
                 앞재생 아이콘 -->
-          </div>
         </div>
       </div>
     </div>
@@ -85,10 +100,14 @@
     <!-- 두번째 화면 -->
     <div class="app music-player">
       <div class="app__header">
-        <!-- 왼쪽화살표 -->
-        <!-- 돋보기 -->
+        <span><i class="fa-solid fa-arrow-left fa-xl"></i></span>
+        <span><i class="fa-solid fa-ellipsis-vertical fa-xl"></i></span>
       </div>
-
+      <div class="music-player__title">
+        <img
+          src="https://www.muse.mu/sites/g/files/g2000014236/files/styles/album-cover-new/public/2022-04/Muse%20-%20The%20Resistance%20Packshot_0.png"
+        />
+      </div>
       <!-- 큰이미지 -->
 
       <div class="app-title">
