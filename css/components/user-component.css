@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  border-radius: 30px;
 }
 
 .user-component,
@@ -51,4 +52,19 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+@keyframes scaleUp_user-component-user {
+  0% {
+    transform: none;
+    background-color: white;
+  }
+  100% {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+.user-component-user:hover {
+  animation: scaleUp_user-component-user 0.5s linear forwards;
 }
