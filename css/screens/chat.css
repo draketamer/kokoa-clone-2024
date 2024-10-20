@@ -130,18 +130,19 @@ order는 flex children에게만 적용됨
   width: 100%;
   border: var(--main-border);
   border-radius: 20px;
+  box-sizing: border-box;
 }
 
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: -3px;
-  top: 2px;
+  right: 3px;
+  top: 5px;
 }
 
 .reply__column:last-child > i {
   right: 40px;
-  top: 17px;
+  top: 20px;
 }
 
 .reply__column button i {
